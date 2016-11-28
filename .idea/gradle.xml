@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/day1" />
+            <option value="$PROJECT_DIR$/tasks1" />
           </set>
         </option>
       </GradleProjectSettings>

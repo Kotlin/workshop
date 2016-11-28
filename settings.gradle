@@ -1,2 +1,4 @@
 rootProject.name = 'kotlin-workshop'
+include 'day1'
+include 'tasks1'
 
