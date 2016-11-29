@@ -18,15 +18,5 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="day1_main" target="1.5" />
-      <module name="day1_test" target="1.5" />
-      <module name="kotlin-workshop_main" target="1.5" />
-      <module name="kotlin-workshop_test" target="1.5" />
-      <module name="part1-basics_main" target="1.5" />
-      <module name="part1-basics_test" target="1.5" />
-      <module name="tasks1_main" target="1.5" />
-      <module name="tasks1_test" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
