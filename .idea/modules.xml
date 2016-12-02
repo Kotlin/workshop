@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/day1/day1.iml" filepath="$PROJECT_DIR$/.idea/modules/day1/day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/day2/day2.iml" filepath="$PROJECT_DIR$/.idea/modules/day2/day2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-workshop.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-workshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks1/tasks1.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks1/tasks1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks2/tasks2.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks2/tasks2.iml" />
     </modules>
   </component>
 </project>

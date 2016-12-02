@@ -9,7 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/day1" />
+            <option value="$PROJECT_DIR$/day2" />
             <option value="$PROJECT_DIR$/tasks1" />
+            <option value="$PROJECT_DIR$/tasks2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
