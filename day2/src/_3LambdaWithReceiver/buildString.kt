@@ -1,13 +1,33 @@
 package _3LambdaWithReceiver
 
-fun main(args: Array<String>) {
+fun usingWith() {
     val sb = StringBuilder()
-    with(sb) {
+    val s = with(sb) {
         appendln("Alphabet: ")
         for (c in 'a'..'z') {
             append(c)
         }
         toString()
     }
-    println(sb)
+    println(s)
+}
+
+fun usingApply() {
+    val s = StringBuilder().apply {
+        appendln("Alphabet: ")
+        for (c in 'a'..'z') {
+            append(c)
+        }
+    }.toString()
+    println(s)
+}
+
+fun usingBuildString() {
+    val s = buildString {
+        appendln("Alphabet: ")
+        for (c in 'a'..'z') {
+            append(c)
+        }
+    }
+    println(s)
 }

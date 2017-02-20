@@ -1,6 +1,6 @@
 package _5DelegatedProperties
 
-class LazyProperty() {
+class LazyProperty {
     val lazy: Int by lazy {
         println("Calculate the value")
         42

@@ -1,5 +1,7 @@
 package _1BreakingSafety
 
+/* optional task */
+
 open class A(open val value: String) {
 
 }
