@@ -35,7 +35,7 @@ This workshop includes material from the following authors:
 
 ### License and Usage
 
-This workshop is Copyright (c) 2017 JetBrains and licensed under Creative Commons 
+The material provided in this repository, including but not limited to source code, presentations, notes, exercises is Copyright (c) 2017 JetBrains, and provided as-is. 
 
 ![JetBrains Logo](jetbrainslogo.png)
 
@@ -47,9 +47,9 @@ JetBrains and Kotlin are Registered Trademarks of their respective trademark hol
 #### Contributions
 
 We welcome all contributions to this workshop. If you feel you'd like to contribute something, create a fork and make a pull request. Bug fixes, comments, suggestions, all welcome. 
-
-#### Usage and endorsements
-
+ 
+#### Usage and endorsements 
+ 
 You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. Additionally 
 
 * By using this material, with or without any modification, JetBrains does not endorse any workshop or training that you may offer.
