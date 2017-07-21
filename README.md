@@ -33,7 +33,7 @@ This workshop includes material from the following authors:
 * [Dmitry Jemerov](https://github.com/yole)
 * [Roman Elizarov](https://gitub.com/elizarov)
 
-### License and Copyright
+### License and Usage
 
 This workshop is Copyright (c) 2017 JetBrains and licensed under Creative Commons 
 
