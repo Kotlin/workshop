@@ -1,6 +1,8 @@
 package org.jtebrains.kotlinworkshop.student.introduction._2Shop
 
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
+
+import org.jetbrains.kotlinworkshop.student.introduction._2Shop.getCitiesCustomersAreFrom
+import org.jetbrains.kotlinworkshop.student.introduction._2Shop.getCustomersFrom
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

@@ -1,9 +1,10 @@
 package org.jtebrains.kotlinworkshop.student.introduction._3TaxiPark
 
 
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.*
+import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.findSmartPassengers
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class _4TestSmartPassengers {
     @Test

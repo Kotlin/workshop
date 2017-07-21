@@ -1,8 +1,9 @@
 package org.jtebrains.kotlinworkshop.student.introduction._3TaxiPark
 
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.*
+import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.findFakeDrivers
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class _1TestFakeDrivers {
     @Test

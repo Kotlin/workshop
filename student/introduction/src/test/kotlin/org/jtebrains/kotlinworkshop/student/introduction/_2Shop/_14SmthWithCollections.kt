@@ -1,8 +1,8 @@
 package org.jtebrains.kotlinworkshop.student.introduction._2Shop
 
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
+import org.jetbrains.kotlinworkshop.student.introduction._2Shop.doSomethingStrangeWithCollection
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
 
 class _14SmthWithCollections {
     @Test fun testCollectionOfOneElement() {
@@ -27,6 +27,6 @@ class _14SmthWithCollections {
 
     private fun doTest(expected: Collection<String>?, argument: Collection<String>) {
         assertEquals(
-                expected, doSomethingStrangeWithCollection(argument),"The function 'doSomethingStrangeWithCollection' should do at least something with a collection:")
+                expected, doSomethingStrangeWithCollection(argument), "The function 'doSomethingStrangeWithCollection' should do at least something with a collection:")
     }
 }
