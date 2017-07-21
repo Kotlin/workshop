@@ -1,11 +1,8 @@
 package org.jtebrains.kotlinworkshop.student.introduction._1Nullability
 
-import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.Client
-import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.Mailer
-import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.PersonalInfo
-import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.sendMessageToClient
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
+import org.jetbrains.kotlinworkshop.student.introduction._1Nullability.*
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class TestSendMessage {
     fun testSendMessageToClient(

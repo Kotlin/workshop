@@ -1,10 +1,8 @@
 package org.jtebrains.kotlinworkshop.student.introduction._2Shop
 
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.getCustomersWhoOrderedProduct
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.getMostExpensiveDeliveredProduct
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.getNumberOfTimesProductWasOrdered
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
+import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class _13CompoundTasks {
     @Test fun testGetCustomersWhoOrderedProduct() {

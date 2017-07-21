@@ -1,9 +1,6 @@
 package org.jtebrains.kotlinworkshop.student.introduction._3TaxiPark
 
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.Driver
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.Order
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.Passenger
-import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.TaxiPark
+import org.jetbrains.kotlinworkshop.student.introduction._3TaxiPark.*
 
 internal val drivers = (1..10).map { Driver("Driver$it") }
 internal val passengers = (1..10).map { Passenger("Passenger$it") }

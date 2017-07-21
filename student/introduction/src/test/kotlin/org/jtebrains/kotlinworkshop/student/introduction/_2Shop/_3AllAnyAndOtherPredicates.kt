@@ -2,10 +2,8 @@ package org.jtebrains.kotlinworkshop.student.introduction._2Shop
 
 
 import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
-import kotlin.test.assertFalse
-import kotlin.test.assertTrue
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class _3AllAnyAndOtherPredicates {
     @Test fun testCustomerIsFromCity() {

@@ -1,8 +1,6 @@
 package org.jtebrains.kotlinworkshop.student.introduction._2Shop
 
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.City
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.Customer
-import org.jetbrains.kotlinworkshop.student.introduction._2Shop.Product
+import org.jetbrains.kotlinworkshop.student.introduction._2Shop.*
 
 //products
 val idea = Product("IntelliJ IDEA Ultimate", 199.0)
