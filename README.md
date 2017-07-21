@@ -16,7 +16,7 @@ It consists of
 * **Instructor Project**: Used to explain concepts, with existing code samples
 * **Keynote Presentation**: For the instructor to use 
 * **Student Project**: For students to complete
-* **Questions** For students to complete
+* **Questions**: For students to complete
 
 
 Both the Instructor Project and they Keynote presentation have Introduction and Advanced modules included. While the Introduction 
