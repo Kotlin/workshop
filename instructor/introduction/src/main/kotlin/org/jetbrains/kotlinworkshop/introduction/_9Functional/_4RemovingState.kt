@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._9Functional
 
-import org.jetbrains.kotlinworkshop.advanced._Shared.Album
+import org.jetbrains.kotlinworkshop.introduction._Shared.Album
 
 
 // Removing for Loop
