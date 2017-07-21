@@ -1,7 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._5Conventions
 
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
 
 class TestTask4And5 {
     @Test fun testAddTimeIntervals() {

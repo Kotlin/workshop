@@ -1,7 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._5Conventions
 
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertTrue
 
 class TestTask1 {
     @Test fun testDateComparison() {

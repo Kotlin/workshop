@@ -1,8 +1,5 @@
 package org.jetbrains.kotlinworkshop.student.advanced._4CreatingDsl
 
-import org.jetbrains.kotlinworkshop.student.advanced._4CreatingDsl.breakfastMenu
-import org.jetbrains.kotlinworkshop.student.advanced._4CreatingDsl.item
-
 fun createCustomMenu() = breakfastMenu {
     item {
         name = "Belgian Waffles"

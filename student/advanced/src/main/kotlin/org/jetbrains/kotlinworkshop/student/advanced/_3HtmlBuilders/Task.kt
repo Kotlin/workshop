@@ -1,9 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._3HtmlBuilders
 
-import org.jetbrains.kotlinworkshop.student.advanced._3HtmlBuilders.*
-
 fun getTitleColor() = "#b9c9fe"
-fun getCellColor(row: Int, column: Int) = if ((row + column) %2 == 0) "#dce4ff" else "#eff2ff"
+fun getCellColor(row: Int, column: Int) = if ((row + column) % 2 == 0) "#dce4ff" else "#eff2ff"
 
 /*
 1) Fill the table with the proper values from products.

@@ -1,7 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._3HtmlBuilders
 
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertTrue
 
 class TestHtmlBuilders {
     @Test fun productTableIsFilled() {

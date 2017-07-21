@@ -1,7 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._5Conventions
 
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
 
 class TestTask3 {
     fun doTest(date: MyDate, first: MyDate, last: MyDate, shouldBeInRange: Boolean) {

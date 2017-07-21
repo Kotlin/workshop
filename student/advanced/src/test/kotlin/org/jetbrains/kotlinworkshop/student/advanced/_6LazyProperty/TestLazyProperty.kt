@@ -1,7 +1,9 @@
 package org.jetbrains.kotlinworkshop.student.advanced._6LazyProperty
 
 import org.junit.jupiter.api.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 class TestLazyProperty {
     @Test fun testLazy() {
@@ -15,10 +17,10 @@ class TestLazyProperty {
 
     @Test fun initializedOnce() {
         var initialized = 0
-        val lazyProperty = LazyProperty( { initialized++; 42 })
+        val lazyProperty = LazyProperty({ initialized++; 42 })
         lazyProperty.lazy
         lazyProperty.lazy
-        assertEquals( 1, initialized,"Lazy property should be initialized once")
+        assertEquals(1, initialized, "Lazy property should be initialized once")
 
     }
 }
