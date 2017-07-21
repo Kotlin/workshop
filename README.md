@@ -1,5 +1,7 @@
 ## Kotlin Workshop
 
+![Kotlin Logo](kotlinlogo.png)
+
 A Kotlin workshop intended to be taught in two days. 
 
 ### Structure
@@ -34,6 +36,8 @@ This workshop includes material from the following authors:
 ### Usage, license and Copyright
 
 This workshop is Copyright (c) 2017 JetBrains
+
+![JetBrains Logo](jetbrainslogo.png)
 
 You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. 
 
