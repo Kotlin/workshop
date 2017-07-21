@@ -1,9 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._3HtmlBuilders
 
-import javax.swing.JFrame
-import javax.swing.JLabel
-import javax.swing.JScrollPane
-import javax.swing.SwingConstants.CENTER
+import javax.swing.*
+import javax.swing.SwingConstants.*
 
 fun main(args: Array<String>) {
     with(JFrame("Product popularity")) {

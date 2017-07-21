@@ -1,9 +1,7 @@
 package org.jetbrains.kotlinworkshop.student.advanced._6LazyProperty
 
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
-import kotlin.test.assertFalse
-import kotlin.test.assertTrue
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class TestLazyProperty {
     @Test fun testLazy() {

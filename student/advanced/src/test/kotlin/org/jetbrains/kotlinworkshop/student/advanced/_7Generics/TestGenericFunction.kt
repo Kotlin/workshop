@@ -1,10 +1,9 @@
 package org.jetbrains.kotlinworkshop.student.advanced._7Generics
 
 
-import _7Generics.partitionLettersAndOtherSymbols
-import _7Generics.partitionWordsAndLines
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
+import _7Generics.*
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class TestGenericFunction {
     @Test fun testPartitionWordsAndLines() {

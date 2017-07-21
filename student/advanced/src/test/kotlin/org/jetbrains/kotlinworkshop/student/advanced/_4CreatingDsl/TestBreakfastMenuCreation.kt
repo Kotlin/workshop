@@ -1,8 +1,8 @@
 package org.jetbrains.kotlinworkshop.student.advanced._4CreatingDsl
 
 
-import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 class TestBreakfastMenuCreation {
     @Test

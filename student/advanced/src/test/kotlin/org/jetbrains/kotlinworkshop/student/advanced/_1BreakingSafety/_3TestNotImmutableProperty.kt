@@ -1,8 +1,8 @@
 package org.jetbrains.kotlinworkshop.student.advanced._1BreakingSafety
 
 
-import org.junit.jupiter.api.Test
-import kotlin.test.assertNotEquals
+import org.junit.jupiter.api.*
+import kotlin.test.*
 
 
 class TestNotImmutableProperty {
