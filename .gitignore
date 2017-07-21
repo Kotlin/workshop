@@ -1,8 +1,8 @@
 *.iws
 .ds_store
-/out/
+out/
 .idea_modules/
 .gradle/
 .idea/
 build/
-
+presources/
