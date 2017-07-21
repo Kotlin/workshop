@@ -8,15 +8,15 @@ A Kotlin workshop intended to be taught in two days.
 
 This workshop is divided into two parts
 
-* Introduction to Kotlin.
+* Introduction to Kotlin
 * Advanced Kotlin
 
 It consists of 
 
-* Instructor Project. Used to explain concepts, with existing code samples
-* Keynote Presentation. For the instructor to use 
-* Student Project. For students to complete
-* Questions. For students to complete
+* **Instructor Project**: Used to explain concepts, with existing code samples
+* **Keynote Presentation**: For the instructor to use 
+* **Student Project**: For students to complete
+* **Questions** For students to complete
 
 
 Both the Instructor Project and they Keynote presentation have Introduction and Advanced modules included. While the Introduction 
@@ -33,15 +33,24 @@ This workshop includes material from the following authors:
 * [Dmitry Jemerov](https://github.com/yole)
 * [Roman Elizarov](https://gitub.com/elizarov)
 
-### Usage, license and Copyright
+### License and Copyright
 
-This workshop is Copyright (c) 2017 JetBrains
+This workshop is Copyright (c) 2017 JetBrains and licensed under Creative Commons 
 
 ![JetBrains Logo](jetbrainslogo.png)
 
-You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. 
-
-We also love all contributions, so please feel free to contribute back suggestions, fixes, etc.
-
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
+
+JetBrains and Kotlin are Registered Trademarks of their respective trademark holders. 
+
+#### Contributions
+
+We welcome all contributions to this workshop. If you feel you'd like to contribute something, create a fork and make a pull request. Bug fixes, comments, suggestions, all welcome. 
+
+#### Usage
+
+* You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. 
+* JetBrains does not endorse any workshop that you may offer when using this material.
+
+If you're interested in becoming an official JetBrains Training Partner, please [contact us](https://www.jetbrains.com/company/partners/become_a_partner.html) 
