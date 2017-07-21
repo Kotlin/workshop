@@ -35,7 +35,7 @@ This workshop includes material from the following authors:
 
 ### License and Usage
 
-The material provided in this repository, including but not limited to source code, presentations, notes, exercises is Copyright (c) 2017 JetBrains, and provided as-is. 
+The material provided in this repository, including but not limited to source code, presentations, notes and exercises is Copyright (c) 2017 JetBrains, and is provided as-is. 
 
 ![JetBrains Logo](jetbrainslogo.png)
 
