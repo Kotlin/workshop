@@ -17,3 +17,6 @@ fun process(input: List<Int>) {
 fun process(input: List<String>) {
 
 }
+
+
+// Others: @JvmStatic, @JvmOverload, etc. See https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/index.html
