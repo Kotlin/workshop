@@ -1,23 +1,20 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.launch
-import kotlinx.coroutines.experimental.runBlocking
-import kotlin.concurrent.thread
+import kotlinx.coroutines.experimental.*
+import kotlin.concurrent.*
 
 
 fun main(args: Array<String>) {
 
     coroutines()
-  //  threads()
+    //  threads()
 
 }
 
 fun threads() {
     val jobs = 1..100000
     jobs.forEach {
-        thread{
+        thread {
             Thread.sleep(1000L)
             print(".")
         }

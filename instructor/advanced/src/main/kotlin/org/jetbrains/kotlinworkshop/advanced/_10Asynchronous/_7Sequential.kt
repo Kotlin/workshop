@@ -1,8 +1,7 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
-import kotlin.system.measureTimeMillis
+import kotlinx.coroutines.experimental.*
+import kotlin.system.*
 
 
 suspend fun firstFunction(): Int {
@@ -15,11 +14,11 @@ suspend fun secondFunction(): Int {
     return 29
 }
 
-fun main(args: Array<String>) = runBlocking{
+fun main(args: Array<String>) = runBlocking {
     val time = measureTimeMillis {
         val first = firstFunction1()
         val second = secondFunction1()
-        println("${ first + second }")
+        println("${first + second}")
     }
     println("Completed in $time")
 }

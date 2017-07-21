@@ -10,9 +10,6 @@ fun <T> head(list: List<T>): T {
 }
 
 
-
-
-
 fun <T> cons(element: T, list: List<T>): List<T> {
     return when (list.count()) {
         0 -> listOf(element)
@@ -20,16 +17,6 @@ fun <T> cons(element: T, list: List<T>): List<T> {
         else -> listOf(element).plus(list)
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 fun <T> tail(list: List<T>): List<T> {

@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._1Intro
 
-import org.jetbrains.kotlinworkshop.introduction._Shared.CustomerJava
+import org.jetbrains.kotlinworkshop.introduction._Shared.*
 
 
 fun main(args: Array<String>) {

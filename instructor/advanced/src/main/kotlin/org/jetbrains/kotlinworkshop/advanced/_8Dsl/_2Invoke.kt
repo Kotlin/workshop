@@ -9,7 +9,6 @@ class FooClass {
 }
 
 
-
 fun main(args: Array<String>) {
     val foo = FooClass()
     foo("Something")

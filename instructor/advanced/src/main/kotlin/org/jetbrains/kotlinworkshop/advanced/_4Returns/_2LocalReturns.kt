@@ -14,14 +14,14 @@ fun containingFunction3() {
 
 fun containingFunction4() {
     val numbers = 1..100
-    numbers.forEach myLabel@{
+    numbers.forEach myLabel@ {
         if (it % 5 == 0) return@myLabel
     }
 }
 
 fun containingFunction5() {
     val numbers = 1..100
-    numbers.forEach( fun(element) {
+    numbers.forEach(fun(element) {
         if (element % 5 == 0) return
     })
     println("Hello")

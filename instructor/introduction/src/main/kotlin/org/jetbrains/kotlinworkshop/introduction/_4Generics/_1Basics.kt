@@ -1,7 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._4Generics
 
-import org.jetbrains.kotlinworkshop.introduction._Shared.Customer
-import org.jetbrains.kotlinworkshop.introduction._Shared.CustomerRepository
+import org.jetbrains.kotlinworkshop.introduction._Shared.*
 
 
 interface Repository<T> {
@@ -15,9 +14,6 @@ fun main(args: Array<String>) {
 
     val customer = customerRepo.getById(10)
     val customers = customerRepo.getAll()
-
-
-
 
 
 }

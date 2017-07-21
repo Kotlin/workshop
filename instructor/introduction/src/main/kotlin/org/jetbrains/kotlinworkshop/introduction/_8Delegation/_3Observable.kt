@@ -1,7 +1,7 @@
 package org.jetbrains.kotlinworkshop.introduction._8Delegation
 
-import kotlin.properties.Delegates
-import kotlin.reflect.KProperty
+import kotlin.properties.*
+import kotlin.reflect.*
 
 class Person(
         val name: String, age: Int, salary: Int

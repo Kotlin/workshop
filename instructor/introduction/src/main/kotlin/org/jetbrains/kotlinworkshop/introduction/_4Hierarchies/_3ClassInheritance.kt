@@ -13,11 +13,11 @@ open class OpenCustomer() : Person() {
     }
 }
 
-class SpecialCustomer: OpenCustomer() {
+class SpecialCustomer : OpenCustomer() {
 
 }
 
-data class CustomerEntity(val name: String): Person()
+data class CustomerEntity(val name: String) : Person()
 
 fun main(args: Array<String>) {
 

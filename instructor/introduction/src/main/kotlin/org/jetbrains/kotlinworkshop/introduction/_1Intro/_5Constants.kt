@@ -7,4 +7,4 @@ val CopyrightName = "JetBrains"
 const val CopyrightYear = 2017
 
 
-val a = sum(2,3 )
+val a = sum(2, 3)

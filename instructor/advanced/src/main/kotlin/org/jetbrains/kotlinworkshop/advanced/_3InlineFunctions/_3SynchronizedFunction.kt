@@ -1,8 +1,7 @@
 package org.jetbrains.kotlinworkshop.advanced._3InlineFunctions
 
-import java.util.concurrent.locks.Lock
-import java.util.concurrent.locks.ReentrantLock
-import kotlin.concurrent.withLock
+import java.util.concurrent.locks.*
+import kotlin.concurrent.*
 
 inline fun <T> synchronized(lock: Lock, action: () -> T): T {
     lock.lock()

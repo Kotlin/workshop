@@ -23,7 +23,7 @@ public final class Node {
  */
 
 fun <T> foo(t: T) {}
-fun <T: Comparable<T>> bar(t: T) {}
+fun <T : Comparable<T>> bar(t: T) {}
 
 /*
   public final static foo(Ljava/lang/Object;)V

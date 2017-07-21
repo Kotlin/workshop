@@ -14,36 +14,24 @@ class Response(var contents: String, var statusCode: Int) {
 }
 
 
-class RouteHandler(val request: Request, val response: Response)  { }
+class RouteHandler(val request: Request, val response: Response) {}
 
 
+fun get(path: String, f: RouteHandler.() -> Unit): RouteHandler.() -> Unit = f
 
 
-
-fun get(path: String, f: RouteHandler.()->Unit): RouteHandler.() -> Unit = f
-
-
-fun String.with(handler : Response.() -> Unit) : Pair<String, Response.() -> Unit> = this to handler
+fun String.with(handler: Response.() -> Unit): Pair<String, Response.() -> Unit> = this to handler
 
 
 fun main(args: Array<String>) {
 
-    get("/home")  {
+    get("/home") {
         if (request.method == "GET") {
             response {
 
             }
         }
     }
-
-
-
-
-
-
-
-
-
 
 
 }

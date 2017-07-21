@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._Shared
 
-import org.jetbrains.kotlinworkshop.introduction._4Generics.Repository
+import org.jetbrains.kotlinworkshop.introduction._4Generics.*
 
 class CustomerRepository<T> : Repository<T> {
     override fun getById(id: Int): T {

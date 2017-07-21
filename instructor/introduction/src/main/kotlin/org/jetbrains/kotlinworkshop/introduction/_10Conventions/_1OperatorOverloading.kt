@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._10Conventions
 
-import java.lang.StringBuilder
+import java.lang.*
 
 
 data class Time(val hours: Int, val mins: Int) {

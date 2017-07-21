@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.advanced._5Reified
 
-import kotlin.reflect.KClass
+import kotlin.reflect.*
 
 interface FieldValidator<T> {
     fun validate(input: T): Boolean

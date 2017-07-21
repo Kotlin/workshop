@@ -1,10 +1,7 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
-import kotlin.system.measureTimeMillis
+import kotlinx.coroutines.experimental.*
+import kotlin.system.*
 
 
 suspend fun firstFunction1(): Int {
@@ -17,11 +14,11 @@ suspend fun secondFunction1(): Int {
     return 29
 }
 
-fun main(args: Array<String>) = runBlocking{
+fun main(args: Array<String>) = runBlocking {
     val time = measureTimeMillis {
         val first = async(CommonPool) { firstFunction1() }
         val second = async(CommonPool) { secondFunction1() }
-        println("${ first.await() + second.await() }")
+        println("${first.await() + second.await()}")
     }
     println("Completed in $time")
 }

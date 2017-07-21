@@ -2,8 +2,8 @@ package org.jetbrains.kotlinworkshop.advanced._7FunctionalConstructs
 
 
 sealed class Expr {
-    class Num(val value : Int) : Expr()
-    class Sum(val left : Expr, val right : Expr) : Expr()
+    class Num(val value: Int) : Expr()
+    class Sum(val left: Expr, val right: Expr) : Expr()
 }
 
 fun eval(e: Expr): Int = when (e) {
@@ -19,5 +19,5 @@ fun main(args: Array<String>) {
 
 sealed class Result
 
-class Success: Result()
-class Failure: Result()
+class Success : Result()
+class Failure : Result()

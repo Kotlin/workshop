@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.advanced._8Dsl
 
 
-fun route(path: String, f: RouteHandler.()->Unit) {
+fun route(path: String, f: RouteHandler.() -> Unit) {
 
 }

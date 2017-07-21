@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
     loadService<Service>()
 }
 
-inline fun <reified T: Any> loadService() =
-    ServiceLoader.load(T::class.java)
+inline fun <reified T : Any> loadService() =
+        ServiceLoader.load(T::class.java)

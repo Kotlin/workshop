@@ -15,6 +15,7 @@ class A {
 
         // to make it static use annotation
         @JvmStatic
-        fun staticFunction() {}
+        fun staticFunction() {
+        }
     }
 }

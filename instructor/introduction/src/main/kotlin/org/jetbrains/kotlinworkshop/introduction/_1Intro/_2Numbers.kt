@@ -12,6 +12,4 @@ fun main(args: Array<String>) {
     val myLongAgain: Long = myInt.toLong()
 
 
-
-
 }

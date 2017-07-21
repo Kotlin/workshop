@@ -39,13 +39,12 @@ class QuickSort : SortAlgorithm {
     }
 }
 
-class BubbleSort: SortAlgorithm {
+class BubbleSort : SortAlgorithm {
     override fun <T> sort(list: List<T>): List<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
 }
-
 
 
 // Template Patterns
@@ -55,6 +54,7 @@ abstract class Record {
     fun checkPermissions() {
 
     }
+
     fun modify() {
         checkPermissions()
         edit()
@@ -62,7 +62,7 @@ abstract class Record {
     }
 }
 
-class CustomerRecord: Record() {
+class CustomerRecord : Record() {
     override fun edit() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
@@ -73,7 +73,7 @@ class CustomerRecord: Record() {
 
 }
 
-class InvoiceRecord: Record() {
+class InvoiceRecord : Record() {
     override fun edit() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
@@ -83,7 +83,6 @@ class InvoiceRecord: Record() {
     }
 
 }
-
 
 
 // Clean-ups > using statement

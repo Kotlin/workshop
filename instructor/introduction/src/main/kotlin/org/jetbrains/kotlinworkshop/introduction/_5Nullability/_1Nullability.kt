@@ -35,6 +35,8 @@ fun test3(s: String?) {
 }
 
 fun fail(): Nothing =
-  throw UnsupportedOperationException()
+        throw UnsupportedOperationException()
 
-fun notImplemented() { TODO() }
+fun notImplemented() {
+    TODO()
+}

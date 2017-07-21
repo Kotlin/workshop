@@ -1,7 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._9Functional
 
 
-
 fun itDoesSomething(elements: List<String>): HashMap<String, Int> {
     var i = 0
     val results = hashMapOf<String, Int>()

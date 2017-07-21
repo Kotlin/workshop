@@ -1,7 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._9Functional
 
 
-
 fun fibonnaciRecursive(n: Long): Long {
     return when (n) {
         0L, 1L -> n
@@ -12,7 +11,7 @@ fun fibonnaciRecursive(n: Long): Long {
 fun fibonacciIterative(n: Long): Long {
     var a = 0L
     var b = 1L
-    for (i in 0..n-1) {
+    for (i in 0..n - 1) {
         val temp = a
         a = b
         b = temp + a

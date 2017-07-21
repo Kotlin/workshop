@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.advanced._9Metaprogramming
 
-import java.lang.reflect.Type
+import java.lang.reflect.*
 
 class Transaction(val id: Int, val amount: Double, var description: String = "Default Value") {
     fun validate() {

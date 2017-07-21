@@ -1,7 +1,6 @@
 package org.jetbrains.kotlinworkshop.advanced._7FunctionalConstructs
 
 
-
 infix fun <A, B> Maybe<(A) -> B>.apply(f: Maybe<A>): Maybe<B> =
         when (this) {
             is Maybe.None -> Maybe.None

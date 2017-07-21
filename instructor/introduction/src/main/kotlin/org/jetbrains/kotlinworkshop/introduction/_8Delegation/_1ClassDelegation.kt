@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._8Delegation
 
-import org.jetbrains.kotlinworkshop.introduction._Shared.Customer
+import org.jetbrains.kotlinworkshop.introduction._Shared.*
 
 
 interface Repository {
@@ -12,7 +12,7 @@ interface Logger {
     fun logAll()
 }
 
-class Controller(repository: Repository, logger: Logger): Repository by repository, Logger by logger {
+class Controller(repository: Repository, logger: Logger) : Repository by repository, Logger by logger {
 
 
 }

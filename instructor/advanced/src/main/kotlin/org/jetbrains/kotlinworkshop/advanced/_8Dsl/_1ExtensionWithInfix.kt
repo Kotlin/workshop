@@ -6,7 +6,6 @@ fun String.toTitleCase(): String {
 }
 
 
-
 infix fun String.isTheSameAs(value: String) = this == value
 
 

@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinworkshop.introduction._8Delegation
 
-import kotlin.reflect.KProperty
+import kotlin.reflect.*
 
 
 class Service {
@@ -10,7 +10,7 @@ class Service {
 
 }
 
-class ExternalFunctionality  {
+class ExternalFunctionality {
 
     var backingField = "Default"
     operator fun getValue(service: Service, property: KProperty<*>): String {

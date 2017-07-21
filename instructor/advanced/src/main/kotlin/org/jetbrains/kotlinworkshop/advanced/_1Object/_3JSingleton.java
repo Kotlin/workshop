@@ -6,5 +6,6 @@ public class _3JSingleton {
     private _3JSingleton() {
     }
 
-    public void foo() {}
+    public void foo() {
+    }
 }
