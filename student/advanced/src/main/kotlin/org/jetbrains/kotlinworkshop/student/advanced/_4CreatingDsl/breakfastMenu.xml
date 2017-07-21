@@ -1,0 +1,27 @@
+<breakfast_menu>
+    <item>
+        <name>Belgian Waffles</name>
+        <price>$5.95</price>
+        <calories>650</calories>
+    </item>
+    <item>
+        <name>Strawberry Belgian Waffles</name>
+        <price>$7.95</price>
+        <calories>900</calories>
+    </item>
+    <item>
+        <name>Berry-Berry Belgian Waffles</name>
+        <price>$8.95</price>
+        <calories>900</calories>
+    </item>
+    <item>
+        <name>French Toast</name>
+        <price>$4.50</price>
+        <calories>600</calories>
+    </item>
+    <item>
+        <name>Homestyle Breakfast</name>
+        <price>$6.95</price>
+        <calories>950</calories>
+    </item>
+</breakfast_menu>
