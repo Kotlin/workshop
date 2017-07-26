@@ -53,7 +53,7 @@ We welcome all contributions to this workshop. If you feel you'd like to contrib
 You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. Additionally 
 
 * By using this material, with or without any modification, JetBrains does not endorse any workshop or training that you may offer.
-* By using this material, with or without any modification, you may not use JetBrain's name to promote your workshop or training withut prior written consent. 
+* By using this material, with or without any modification, you may not use JetBrain's name to promote your workshop or training without prior written consent. 
 * By using this material, provided there are no modifications, you may indicate that you are using JetBrains Kotlin Workshop Material.
 
 If you're interested in becoming an official JetBrains Training Partner, please [contact us](https://www.jetbrains.com/company/partners/become_a_partner.html) 
