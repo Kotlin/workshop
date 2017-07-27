@@ -47,7 +47,8 @@ JetBrains and Kotlin are Registered Trademarks of their respective trademark hol
 #### Contributions
 
 We welcome all contributions to this workshop. If you feel you'd like to contribute something, create a fork and make a pull request. Bug fixes, comments, suggestions, all welcome. 
- 
+
+If you're contributing code or samples, please send a pull request. If you'd like to update the slides or questions, please contact [Hadi Hariri](https://github.com/hhariri).  
 #### Usage and endorsements 
  
 You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. Additionally 
