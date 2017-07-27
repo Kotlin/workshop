@@ -12,7 +12,7 @@ fun topAlbums_v1(albums: List<Album>): List<Album> {
             hits.add(album)
         }
     }
-    return albums
+    return hits
 }
 
 // Moving towards a functional approach (passing moving part)
@@ -24,7 +24,7 @@ fun topAlbums_v2(albums: List<Album>): List<Album> {
             hits.add(album)
         }
     }
-    return albums
+    return hits
 }
 
 // Clean up
@@ -36,7 +36,7 @@ fun topAlbums_v3(albums: List<Album>): List<Album> {
             hits.add(it)
         }
     }
-    return albums
+    return hits
 }
 
 // Focusing on actual intent
