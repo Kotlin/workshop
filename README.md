@@ -31,7 +31,7 @@ This workshop includes material from the following authors:
 * [Hadi Hariri](https://github.com/hhariri)
 * [Svetlana Isakova](https://github.com/svtk)
 * [Dmitry Jemerov](https://github.com/yole)
-* [Roman Elizarov](https://gitub.com/elizarov)
+* [Roman Elizarov](https://github.com/elizarov)
 
 ### License and Usage
 
