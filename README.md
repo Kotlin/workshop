@@ -14,9 +14,9 @@ This workshop is divided into two parts
 It consists of 
 
 * **Instructor Project**: Used to explain concepts, with existing code samples
-* **Keynote Presentation**: For the instructor to use 
 * **Student Project**: For students to complete
-* **Questions**: For students to complete
+* **[Slides](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing)**: For the instructor to use 
+* **[Questions](https://docs.google.com/document/d/1XO87ugZHS_gNyEXyoUbqK13bMYLaXWXfwKknNTkMf00/edit?usp=sharing)**: For students to complete
 
 
 Both the Instructor Project and they Keynote presentation have Introduction and Advanced modules included. While the Introduction 
