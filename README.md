@@ -19,7 +19,7 @@ It consists of
 * **[Questions](https://docs.google.com/document/d/1XO87ugZHS_gNyEXyoUbqK13bMYLaXWXfwKknNTkMf00/edit?usp=sharing)**: For students to complete
 
 
-Both the Instructor Project and they Keynote presentation have Introduction and Advanced modules included. While the Introduction 
+Both the Instructor Project and the slides have Introduction and Advanced modules included. While the Introduction 
 has a lot of pre-built examples, it also serves as a canvas to show more code while teaching. However, please make sure that if you're 
 a contributing author to this project, that you *do not* check-in any ad-hoc code. It's also recommended to use Scratch files in IntelliJ IDEA
 for this purpose.
