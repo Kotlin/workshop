@@ -1,4 +1,4 @@
-package org.jetbrains.kotlinworkshop.introduction._4Generics
+package org.jetbrains.kotlinworkshop.introduction._11Generics
 
 import org.jetbrains.kotlinworkshop.introduction._Shared.*
 
