@@ -19,9 +19,11 @@ fun compose1(f: (a: Any) -> Any, g: (a: Any) -> Any): (a: Any) -> Any {
     return { x: Any -> { g(f(x)) } }
 }
 
-fun sum(x: Int, y: Int): Int = x + y
+fun sum(x: Int, y: Int) = x + y
 
-fun squared(x: Int): Int = x * x
+
+fun squared(x: Int)  = x * x
+
 
 fun main(args: Array<String>) {
 
@@ -31,3 +33,4 @@ fun main(args: Array<String>) {
     println(sumSquared(2, 3))
 
 }
+
