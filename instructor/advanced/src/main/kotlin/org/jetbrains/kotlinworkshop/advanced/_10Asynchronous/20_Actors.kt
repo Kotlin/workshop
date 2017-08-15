@@ -2,6 +2,7 @@ package com.hadihariri.kotlin.async
 
 import kotlinx.coroutines.experimental.*
 import kotlinx.coroutines.experimental.channels.*
+import org.jetbrains.kotlinworkshop.advanced._10Asynchronous.*
 
 
 sealed class CounterMessage

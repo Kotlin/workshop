@@ -1,4 +1,4 @@
-package com.hadihariri.kotlin.async
+package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
 import kotlinx.coroutines.experimental.*
 import kotlin.concurrent.*
@@ -16,6 +16,22 @@ fun threads() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fun coroutines() = runBlocking {
     val jobs = List(100000) {
         launch(CommonPool) {
@@ -31,6 +47,6 @@ fun coroutines() = runBlocking {
 fun main(args: Array<String>) {
 
     coroutines()
-   //  threads()
+    // threads()
 
 }

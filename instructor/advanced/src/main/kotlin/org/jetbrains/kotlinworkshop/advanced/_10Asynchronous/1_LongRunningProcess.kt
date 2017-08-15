@@ -1,4 +1,4 @@
-package com.hadihariri.kotlin.async
+package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
 
 fun main(args: Array<String>) {

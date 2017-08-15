@@ -1,7 +1,6 @@
-package com.hadihariri.kotlin.async
+package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
 import kotlinx.coroutines.experimental.*
-import kotlin.coroutines.experimental.*
 
 
 fun main(args: Array<String>) {
