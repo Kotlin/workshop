@@ -1,6 +1,5 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import com.hadihariri.kotlin.async.*
 import kotlinx.coroutines.experimental.*
 
 
@@ -12,3 +11,4 @@ fun main(args: Array<String>) = runBlocking {
     println("Ending here")
     job.join()
 }
+
