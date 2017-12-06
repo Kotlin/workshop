@@ -1,4 +1,5 @@
 rootProject.name = 'kotlinworkshop'
 include 'introduction'
 include 'advanced'
+include 'quizzes'
 
