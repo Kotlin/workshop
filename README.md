@@ -17,15 +17,19 @@ It consists of
 
 * **Instructor Project**: Used to explain concepts, with existing code samples
 * **Student Project**: For students to complete
+* **Presentations**: For the instructor to use 
+* **Questions**: For students to complete
 
 Both the Instructor Project and the slides have Introduction and Advanced modules included. While the Introduction 
 has a lot of pre-built examples, it also serves as a canvas to show more code while teaching. However, please make sure that if you're 
 a contributing author to this project, that you *do not* check-in any ad-hoc code. It's also recommended to use Scratch files in IntelliJ IDEA
 for this purpose.
 
-* **[Slides](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing)**: For the instructor to use 
+#### Presentations
 
-Presentations (used for the workshop at KotinConf):
+Slides for the workshop lead by Hadi Hariri can be found [here](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing).
+
+Presentations used for the workshop at KotinConf:
 1. [Intro](https://speakerdeck.com/svtk/1-intro-kotlin-workshop)
 2. [Nullable Types](https://speakerdeck.com/svtk/2-nullable-types-in-kotlin-kotlin-workshop)
 3. [Object-Oriented Programming in Kotlin](https://speakerdeck.com/svtk/3-object-oriented-programming-in-kotlin-kotlin-workshop)
@@ -36,9 +40,9 @@ Presentations (used for the workshop at KotinConf):
 8. [Conventions](https://speakerdeck.com/svtk/8-conventions-kotlin-workshop)
 9. [Intro to Coroutines](https://speakerdeck.com/svtk/9-introduction-to-coroutines-kotlin-workshop)
 
-* **[Questions](https://drive.google.com/file/d/18AiXqEzdJmNonc6Lo6eumeFmcVvC_9vk/view?usp=sharing)**: For students to complete
+#### Questions
 
-The keys to the questions can be found in the module `instructor/quizzes`.
+Questions can be found [here](https://drive.google.com/file/d/18AiXqEzdJmNonc6Lo6eumeFmcVvC_9vk/view?usp=sharing). The keys to the questions are in the module `instructor/quizzes`.
 
 ### Authors
 
