@@ -17,14 +17,28 @@ It consists of
 
 * **Instructor Project**: Used to explain concepts, with existing code samples
 * **Student Project**: For students to complete
-* **[Slides](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing)**: For the instructor to use 
-* **[Questions](https://docs.google.com/document/d/1XO87ugZHS_gNyEXyoUbqK13bMYLaXWXfwKknNTkMf00/edit?usp=sharing)**: For students to complete
-
 
 Both the Instructor Project and the slides have Introduction and Advanced modules included. While the Introduction 
 has a lot of pre-built examples, it also serves as a canvas to show more code while teaching. However, please make sure that if you're 
 a contributing author to this project, that you *do not* check-in any ad-hoc code. It's also recommended to use Scratch files in IntelliJ IDEA
 for this purpose.
+
+* **[Slides](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing)**: For the instructor to use 
+
+Presentations (used for the workshop at KotinConf):
+1. [Intro](https://speakerdeck.com/svtk/1-intro-kotlin-workshop)
+2. [Nullable Types](https://speakerdeck.com/svtk/2-nullable-types-in-kotlin-kotlin-workshop)
+3. [Object-Oriented Programming in Kotlin](https://speakerdeck.com/svtk/3-object-oriented-programming-in-kotlin-kotlin-workshop)
+4. [Kotlin Types](https://speakerdeck.com/svtk/4-kotlin-types-kotlin-workshop)
+5. [Functional Programming in Kotlin](https://speakerdeck.com/svtk/5-functional-programming-kotlin-workshop)
+6. [The Power of inline](https://speakerdeck.com/svtk/6-the-power-of-inline-kotlin-workshop)
+7. [Lambda With Receiver](https://speakerdeck.com/svtk/7-lambda-with-receiver-kotlin-workshop)
+8. [Conventions](https://speakerdeck.com/svtk/8-conventions-kotlin-workshop)
+9. [Intro to Coroutines](https://speakerdeck.com/svtk/9-introduction-to-coroutines-kotlin-workshop)
+
+* **[Questions](https://docs.google.com/document/d/1XO87ugZHS_gNyEXyoUbqK13bMYLaXWXfwKknNTkMf00/edit?usp=sharing)**: For students to complete
+
+The keys to the questions can be found in the module `instructor/quizzes`.
 
 ### Authors
 
