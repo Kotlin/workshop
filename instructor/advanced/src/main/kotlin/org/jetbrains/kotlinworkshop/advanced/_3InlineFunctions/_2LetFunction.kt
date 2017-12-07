@@ -1,6 +1,7 @@
 package org.jetbrains.kotlinworkshop.advanced._3InlineFunctions
 
-fun sendEmailTo(email: String) { /*...*/
+fun sendEmailTo(email: String) {
+    /*...*/
 }
 
 fun example(email: String?) {
