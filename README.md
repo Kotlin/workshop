@@ -29,7 +29,7 @@ for this purpose.
 
 Slides for the workshop lead by Hadi Hariri can be found [here](https://docs.google.com/presentation/d/1zYWyDedyf0YhnLFF3TVpUqU3C8PKTuvR5P06L99MRn8/edit?usp=sharing).
 
-Presentations used for the workshop at KotinConf:
+Presentations used for the workshop at KotlinConf:
 1. [Intro](https://speakerdeck.com/svtk/1-intro-kotlin-workshop)
 2. [Nullable Types](https://speakerdeck.com/svtk/2-nullable-types-in-kotlin-kotlin-workshop)
 3. [Object-Oriented Programming in Kotlin](https://speakerdeck.com/svtk/3-object-oriented-programming-in-kotlin-kotlin-workshop)
