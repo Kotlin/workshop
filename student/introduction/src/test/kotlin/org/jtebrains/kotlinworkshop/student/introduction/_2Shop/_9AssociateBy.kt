@@ -6,7 +6,7 @@ import kotlin.test.*
 
 class _9AssociateBy {
     @Test
-    fun testZipNameAndCustomer() {
+    fun testAssociateCustomersByName() {
         assertEquals(customers, shop.associateCustomersByName())
     }
 }
