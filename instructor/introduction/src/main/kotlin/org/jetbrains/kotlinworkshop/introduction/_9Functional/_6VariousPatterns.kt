@@ -30,17 +30,17 @@ class CustomerFilter {
 
 // Strategy Pattern
 interface SortAlgorithm {
-    fun <T> sort(list: List<T>): List<T>
+    fun <T: Comparable<T>> sort(list: List<T>): List<T>
 }
 
 class QuickSort : SortAlgorithm {
-    override fun <T> sort(list: List<T>): List<T> {
+    override fun <T: Comparable<T>> sort(list: List<T>): List<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
 
 class BubbleSort : SortAlgorithm {
-    override fun <T> sort(list: List<T>): List<T> {
+    override fun <T: Comparable<T>> sort(list: List<T>): List<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
