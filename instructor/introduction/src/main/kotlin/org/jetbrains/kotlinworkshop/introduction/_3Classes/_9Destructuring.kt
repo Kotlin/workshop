@@ -8,6 +8,6 @@ fun main(args: Array<String>) {
 
     val (country1, city1, continent1) = Triple("Spain", "Madrid", "Europe")
 
-    val (age, _) = Person("Joe Smith", 42)
+    val (_, age) = Person("Joe Smith", 42)
 
 }
