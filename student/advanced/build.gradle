@@ -2,7 +2,7 @@ group 'org.jetbrains.kotlinworkshop.student'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.2.41'
+    ext.kotlin_version = '1.2.60'
     ext.junitPlatformVersion = '1.0.0-M6'
     ext.junitJupiterVersion = '5.0.0-M6'
 
