@@ -3,20 +3,20 @@ package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 import kotlinx.coroutines.*
 
 
-fun main() {
+fun main() = runBlocking {
 
     val jobs = arrayListOf<Job>()
 
-    jobs += GlobalScope.launch(Dispatchers.Unconfined) {
+    jobs += launch(Dispatchers.Unconfined) {
         println("Unconfined: ${threadName()}")
     }
 
-    jobs += GlobalScope.launch() {
+    jobs += launch() {
         isActive
         println("CommonPool: ${threadName()}")
     }
 
-    jobs += GlobalScope.launch(newSingleThreadContext("CustomThread")) {
+    jobs += launch(newSingleThreadContext("CustomThread")) {
         println("CustomThread: ${threadName()}")
     }
 

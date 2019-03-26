@@ -11,10 +11,10 @@ val counterContext = Executors.newSingleThreadExecutor().asCoroutineDispatcher()
 
 var counter = 0
 
-fun main() = runBlocking<Unit> {
+fun main() = runBlocking {
     // Switch to counterContext for faster execution
     massiveRun(Dispatchers.Default) {
-        with(counterContext) { // remove run when switching to counterContext
+        withContext(counterContext) { // remove run when switching to counterContext
             counter++
         }
     }

@@ -1,14 +1,14 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 
-fun main() {
+fun main() = runBlocking {
 
 
     println("Starting here")
-    GlobalScope.launch {
+    launch {
 
         suspendableProcess()
     }

@@ -1,14 +1,12 @@
 package org.jetbrains.kotlinworkshop.advanced._10Asynchronous
 
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 
-// Notice explicit Unit
 fun main() = runBlocking {
-    val job = GlobalScope.launch() {
+    val job = launch {
         var nextPrintTime = System.currentTimeMillis()
         var i = 0
         while (true) { // computation loop

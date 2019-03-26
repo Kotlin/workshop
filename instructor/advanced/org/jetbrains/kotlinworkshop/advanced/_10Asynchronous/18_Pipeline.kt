@@ -1,23 +1,23 @@
 package org.jetbrains.kotlinworkshop.advanced._18_Pipeline
 
-import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.runBlocking
 
 
-fun producerPipeline() = GlobalScope.produce {
+fun CoroutineScope.producerPipeline() = produce {
     var x = 1
     while (true) send(x++)
 }
 
-fun consumerPipeline(numbers: ReceiveChannel<Int>) = GlobalScope.produce<Int> {
+fun CoroutineScope.consumerPipeline(numbers: ReceiveChannel<Int>) = produce {
     for (x in numbers) {
         send(x * x)
     }
 }
 
-fun main() = runBlocking<Unit> {
+fun main() = runBlocking {
     val numbers = producerPipeline()
     val squares = consumerPipeline(numbers)
     for (i in 1..5) {

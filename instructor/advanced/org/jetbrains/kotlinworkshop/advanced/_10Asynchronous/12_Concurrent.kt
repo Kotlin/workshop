@@ -6,7 +6,7 @@ import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
 
 
-fun main() = runBlocking<Unit> {
+fun main() = runBlocking {
 
     val time = measureTimeMillis {
         val one = async(Dispatchers.Default) { function1() }
