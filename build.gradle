@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.21'
+}
+
+group 'org.jetbrains.kotlin-workshop'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile "org.jetbrains.kotlin:kotlin-reflect"
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1'
+
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.4.0'
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit5"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+sourceSets {
+    main.kotlin.srcDirs += 'instructor/introduction'
+    main.kotlin.srcDirs += 'instructor/advanced'
+    main.kotlin.srcDirs += 'instructor/quizzes'
+    main.kotlin.srcDirs += 'student/single'
+    test.kotlin.srcDirs += 'student/tests'
+}

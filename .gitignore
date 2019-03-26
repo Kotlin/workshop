@@ -1,6 +1,7 @@
 *.iws
 .ds_store
 out/
+.idea
 .idea_modules/
 .gradle/
 .idea/

@@ -1,0 +1,15 @@
+package org.jetbrains.kotlinworkshop.advanced._5Reified
+
+import java.util.*
+
+class Service
+
+fun main() {
+
+    ServiceLoader.load(Service::class.java)
+
+    loadService<Service>()
+}
+
+inline fun <reified T : Any> loadService() =
+        ServiceLoader.load(T::class.java)
