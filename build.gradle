@@ -31,6 +31,6 @@ sourceSets {
     main.kotlin.srcDirs += 'instructor/introduction'
     main.kotlin.srcDirs += 'instructor/advanced'
     main.kotlin.srcDirs += 'instructor/quizzes'
-    main.kotlin.srcDirs += 'student/single'
+    main.kotlin.srcDirs += 'student/tasks'
     test.kotlin.srcDirs += 'student/tests'
 }
