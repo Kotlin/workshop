@@ -2,7 +2,7 @@ package org.jetbrains.kotlinworkshop.quizzes._5TypeSystem
 
 open class A(open val value: String) {
     init {
-
+        println(value.length)
     }
 }
 

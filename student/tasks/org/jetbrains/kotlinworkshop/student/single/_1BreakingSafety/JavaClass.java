@@ -6,10 +6,10 @@ import java.util.List;
 
 public class JavaClass {
     public String getValue() {
-        throw new NotImplementedException();
+        return null;
     }
 
     public static void dangerousJavaMethod(List<Integer> list) {
-        throw new NotImplementedException();
+        list.add(null);
     }
 }

@@ -15,9 +15,19 @@ fun initializeMenuItem(): BreakfastMenuItem {
 }
 
 fun initializeMenuItem1(): BreakfastMenuItem {
-    TODO("Rewrite the 'initializeMenuItem' function using 'with'")
+    val menuItem = BreakfastMenuItem()
+    with(menuItem) {
+        name = "Belgian Waffles"
+        price = 5.95
+        calories = 650
+    }
+    return menuItem
+
 }
 
-fun initializeMenuItem2(): BreakfastMenuItem {
-    TODO("Rewrite the 'initializeMenuItem' function using 'apply'")
-}
+fun initializeMenuItem2(): BreakfastMenuItem =
+        BreakfastMenuItem().apply {
+            name = "Belgian Waffles"
+            price = 5.95
+            calories = 650
+        }
