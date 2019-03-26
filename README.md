@@ -44,6 +44,8 @@ Presentations used for the workshop at KotlinConf:
 
 Questions can be found [here](https://drive.google.com/file/d/18AiXqEzdJmNonc6Lo6eumeFmcVvC_9vk/view?usp=sharing). The keys to the questions are in the module `instructor/quizzes`.
 
+Note that the similar material can be found explained in detail in the following [Coursera course](https://www.coursera.org/learn/kotlin-for-java-developers).
+
 ### Authors
 
 This workshop includes material from the following authors:
@@ -69,6 +71,7 @@ JetBrains and Kotlin are Registered Trademarks of their respective trademark hol
 We welcome all contributions to this workshop. If you feel you'd like to contribute something, create a fork and make a pull request. Bug fixes, comments, suggestions, all welcome. 
 
 If you're contributing code or samples, please send a pull request. If you'd like to update the slides or questions, please contact [Hadi Hariri](https://github.com/hhariri).  
+
 #### Usage and endorsements 
  
 You are welcome to use the material in this workshop provided you abide by the corresponding license agreement. Additionally 
